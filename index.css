@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: 'Minecraftia', 'Courier New', monospace;
+  min-width: 400px;
+  background-color: #1e1e1e;
+  background-image: url("https://img.freepik.com/free-vector/halloween-cobweb-background-style_23-2148626623.jpg?t=st=1745156158~exp=1745159758~hmac=3fe2582ffb3b3d0d4e7cbe65f7c17b3c1d623ac2e5fbbbc3f13a2681b6fbf0a6&w=1380");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #dcdcdc;
+}
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #28576e; 
+  background-color: #2b2b2b; 
+  color: #dcdcdc;
+  font-family: 'Minecraftia', 'Courier New', monospace;
+  margin-bottom: 4px;
+}
+
+button {
+  background: #28576e;
+  color: #f0f0f0;
+  padding: 10px 20px;
+  border: 2px solid #398ebc;
+  font-weight: bold;
+  font-family: 'Minecraftia', 'Courier New', monospace;
+  cursor: pointer;
+}
+
+#delete-btn {
+  background: #a42d2d;
+  color: #f0f0f0;
+  border: 2px solid #6e1e1e;
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 5px;
+  background-color: #3c3c3c;
+  padding: 5px;
+  border-left: 4px solid #28576e;
+  font-family: 'Minecraftia', 'Courier New', monospace;
+}
+
+a {
+  color: #398ebc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5f94df;
+}
+
+
+@font-face {
+  font-family: 'Minecraftia';
+  src: url('https://fonts.cdnfonts.com/s/21373/Minecraftia-Regular.ttf') format('truetype');
+}
+
+  
